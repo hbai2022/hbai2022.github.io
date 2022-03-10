@@ -1,7 +1,7 @@
 document.write("<html>");
 document.write("<head>");
 document.write("	<meta http-equiv=\"Content-Type\" content=\"text\/html; charset=utf-8\">");
-document.write("	<title>HBAI 2020<\/title>");
+document.write("	<title>HBAI 2022<\/title>");
 document.write("	<link ref=\"stylesheet\" type=\"text\/css\" href=\"styles.css\">");
 document.write("<\/head>");
 document.write("<body class=\"header2\">");
