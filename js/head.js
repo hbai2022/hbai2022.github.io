@@ -8,15 +8,17 @@ document.write("<body class=\"header2\">");
 document.write("	<div class=\"header\">");
 document.write("		<div class=\"container\">");
 document.write("");
-document.write("			<div class=\"logo\">");
+document.write("<br>")
+document.write("<div style=\"text-align:center\">")
 document.write("				<h1>");
-document.write("					HBAI 2022: Joint Workshop on Human Brain and Artificial Intelligence");
+document.write("HBAI 2022: Joint Workshop on Human Brain and Artificial Intelligence");
 document.write("				<\/h1>");
 document.write("				<h3>");
 document.write("					Held in Conjunction With IJCAI-PRICAI 2022");
 document.write("				<\/h3>");
 document.write("			<\/div>");
 document.write("");
+document.write("<br>")
 document.write("			<div class=\"nav\">");
 document.write("				<ul class=\"new\">");
 document.write("					<li class=\"style\"><a href =\".\/index.html\" class=\"bar\">Home<\/a><\/li>");
