@@ -14,7 +14,7 @@ document.write("				<h1>");
 document.write("HBAI 2022: Joint Workshop on Human Brain and Artificial Intelligence");
 document.write("				<\/h1>");
 document.write("				<h3>");
-document.write("					Held in Conjunction With IJCAI-PRICAI 2022");
+document.write("					Held in Conjunction With IJCAI-ECAI 2022");
 document.write("				<\/h3>");
 document.write("			<\/div>");
 document.write("");
