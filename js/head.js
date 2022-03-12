@@ -10,10 +10,10 @@ document.write("		<div class=\"container\">");
 document.write("");
 document.write("<br>")
 document.write("<div style=\"text-align:center\">")
-document.write("				<h1>");
+document.write("				<h1 style=\"font-size: 32px\">");
 document.write("HBAI 2022: Joint Workshop on Human Brain and Artificial Intelligence");
-document.write("				<\/h1>");
-document.write("				<h3>");
+document.write("				<\/h1 >");
+document.write("				<h3 style=\"font-size: 18.72px\">");
 document.write("					Held in Conjunction With IJCAI-ECAI 2022");
 document.write("				<\/h3>");
 document.write("			<\/div>");
