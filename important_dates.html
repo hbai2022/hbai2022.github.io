@@ -60,7 +60,8 @@
 	    margin: 0;
 	    padding: 0;
 	    overflow: hidden;
-	    background-color: #333;
+	    /* background-color: #333; */
+		background-color: rgba(18, 196, 187, 0.849);
 	}
 
 	li.style {
@@ -79,9 +80,26 @@
 
 	/* Change the link color to #111 (black) on hover */
 	li.style a.bar:hover {
-	    background-color: #111;
+	    /* background-color: #111; */
+		background-color: rgb(127, 180, 111);
 	}
 
+	.button {
+
+		background-color: #4CAF50; /* Green */
+		border: none;
+		color: white;
+		/* padding: 15px 32px; */
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		/* margin: 4px 2px; */
+		cursor: pointer;
+	}
+	.button1 {font-size: 15px;}
+	.button2 {font-size: 15px;}
+	
 </style>
 
 <script language="javascript" type="text/javascript" src="js/head.js"></script>
@@ -162,6 +180,7 @@ p.detail {
 
 </style>
 
+
 </head>
 
 <div class="spacer">
@@ -190,7 +209,11 @@ All papers for the review should be submitted electronically using the conferenc
 </p>  
 <p class="detail" style="line-height:27px; font-size:17px">
 	<B>Page limit: </B> <br />
-	Full paper: 12-15 pages <br />
+	Full paper: 5-7 pages   (Formatting guidelines: LaTeX styles, and Word template:
+    <a href="https://github.com/hbai2022/hbai2022.github.io/raw/main/FormattingGuidelines-IJCAI-ECAI-22.zip" download>download</a>)
+	<!-- <button class="button button1">template</button> -->
+	<!-- <button class="button button2">template2</button> -->
+	<br />
 	Submission will be through the Easychair conference management system: <br />
 	<a href="https://easychair.org/conferences/?conf=hbai2022">https://easychair.org/conferences/?conf=hbai2022</a>
 </p>
@@ -202,7 +225,37 @@ All papers for the review should be submitted electronically using the conferenc
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
+<script type="text/javascript">
+	function download(url)
+	{
+		//url = 'https://raw.githubusercontent.com/hbai2022/hbai2022.github.io/main/README.md'
+		const xhr = new XMLHttpRequest();
+		xhr.open('GET', url)
+		xhr.responseType = 'blob'
+		xhr.send()
+		xhr.onload = function(){
+			const fileBlob = xhr.response;
+			// 将blob转成url地址
+			const fileUrl = URL.createObjectURL(fileBlob)
+			console.log(fileUrl)
 
+			const elementA = document.createElement('a')
+			elementA.setAttribute('href', fileUrl)
+			elementA.innerHTML = '下载'
+			elementA.setAttribute('download', '')
+			elementA.click()
+			//document.body.appendChild(elementA)
+		}
+	}
+	// let imgUrl = 'https://raw.githubusercontent.com/hbai2022/hbai2022.github.io/main/README.md'
+	// download(imgUrl)
+	// document.querySelector("button.button1").onclick = function(){
+	// 	download('https://github.com/hbai2022/hbai2022.github.io/raw/main/FormattingGuidelines-IJCAI-ECAI-22.zip')
+	// }
+	// document.querySelector("button.button2").onclick = function(){
+	// 	download('https://raw.githubusercontent.com/hbai2022/hbai2022.github.io/main/index.html')
+	// }
+</script>
 
 <script language="javascript" type="text/javascript" src="js/footer.js"></script>
 
