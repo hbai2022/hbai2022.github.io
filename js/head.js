@@ -26,6 +26,7 @@ document.write("					<li class=\"style\"><a href =\".\/organizing_committee.html
 document.write("					<li class=\"style\"><a href =\".\/program_committee.html\" class=\"bar\">Program Committee<\/a><\/li>");
 document.write("					<li class=\"style\"><a href =\".\/important_dates.html\" class=\"bar\">Paper Submission<\/a><\/li>");
 document.write("					<li class=\"style\"><a href =\".\/Program.html\" class=\"bar\">Program<\/a><\/li>");
+document.write("			        <li class=\"style\"><a href =\".\/Sponsors.html\" class=\"bar\">Sponsors<\/a><\/li>");
 document.write("				<\/ul>");
 document.write("			<\/div>");
 document.write("		<\/div>	");
